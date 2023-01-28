@@ -116,3 +116,11 @@ footer a {
   transform: translateY(-10px);
   filter: invert(96%) sepia(5%) saturate(18%) hue-rotate(329deg) brightness(78%) contrast(81%);
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+  #calculadora {
+    max-width: 80%;
+    width: 80%;
+    min-width: 80%;
+  }
+}
