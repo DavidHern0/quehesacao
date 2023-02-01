@@ -15,6 +15,7 @@ spanInput1.innerText = "Nota: ";
 let input2 = document.createElement("input");
 input2.setAttribute("type", "number");
 input2.setAttribute("id", "Porcentaje");
+input2.setAttribute("step", "any");
 input2.setAttribute("placeholder", totalPorcentaje);
 let spanInput2 = document.createElement("span")
 spanInput2.innerText = "Porcentaje: ";
